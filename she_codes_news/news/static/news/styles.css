@@ -84,3 +84,10 @@
     margin: 0 0 10px 10px;
     width: 50%;
 }
+
+#createStory {
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+

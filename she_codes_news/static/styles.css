@@ -49,6 +49,15 @@ nav {
     background-color: #bea198;
 }
 
+.button {
+    flex: auto;
+    flex-flow: row;
+    border-radius: 12px;
+    color: #ff9e80;
+    border-color: #acacac;
+    padding: 2%;
+}
+
 a {
     margin: 2px;
     text-decoration: none;
@@ -58,3 +67,4 @@ a {
 a, p {
     font-family: monospace;
 }
+

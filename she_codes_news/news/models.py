@@ -1,5 +1,6 @@
 from django.contrib.auth import get_user_model
 from django.db import models
+from django.utils import timezone
 
 
 class NewsStory(models.Model):
@@ -10,4 +11,4 @@ class NewsStory(models.Model):
     )
     pub_date = models.DateTimeField()
     content = models.TextField()
-    # image = models.ImageField(("image"), upload_to=None, height_field=None, width_field=None, max_length=None)
+    image_url = models.URLField(default="https://picsum.photos/200/300/?blur")
