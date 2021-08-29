@@ -11,4 +11,4 @@ class NewsStory(models.Model):
     )
     pub_date = models.DateTimeField()
     content = models.TextField()
-    image_url = models.URLField(default="https://picsum.photos/200/300/?blur")
+    image_url = models.URLField(default="https://unsplash.com/photos/rOkhGPBdmpk")
