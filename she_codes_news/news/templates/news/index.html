@@ -6,11 +6,9 @@
     {% endblock%}
 
     {% block content %}
-    <a href="{% url 'news:newStory' %}">Write New Story</a>
-    <a href="{% url 'users:createAccount' %}">Create new account</a>
-    <button class="button" href="{% url 'news:newStory' %}">Write New Story</button>
-    <button class="button" href="{% url 'users:createAccount' %}">Create new account</button>
-    
+    <a class="button" href="{% url 'news:newStory' %}">Write New Story</a>
+    <a class="button" href="{% url 'users:createAccount' %}">Create new account</a>
+        
     <h2>Latest News</h2>
 
     <div id="latest-stories">

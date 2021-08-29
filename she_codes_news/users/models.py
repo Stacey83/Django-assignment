@@ -7,10 +7,3 @@ class CustomUser(AbstractUser):
 
     def __str__(self):
         return self.username
-
-class CreateAccountView(models.Model):
-    username = models.CharField
-    email = models.CharField(max_length=200)
-
-    def __str__(self):
-        return self.username
